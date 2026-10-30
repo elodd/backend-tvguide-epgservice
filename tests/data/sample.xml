@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="tvguide-test">
+  <channel id="hirtv.hu">
+    <display-name>HírTV</display-name>
+  </channel>
+  <channel id="m1.hu">
+    <display-name>M1</display-name>
+  </channel>
+  <programme start="20261029180000 +0100" stop="20261029190000 +0100" channel="hirtv.hu">
+    <title>Híradó</title>
+    <desc>Esti hírösszefoglaló.</desc>
+    <category>News</category>
+  </programme>
+  <programme start="20261029190000 +0100" stop="20261029235900 +0100" channel="hirtv.hu">
+    <title>Sport</title>
+  </programme>
+  <programme start="20261029190000 +0100" stop="20261029200000 +0100" channel="m1.hu">
+    <title>Film</title>
+  </programme>
+  <programme start="20261029200000 +0100" stop="20261030000000 +0100" channel="unknown.tv">
+    <title>Orphan</title>
+  </programme>
+</tv>
