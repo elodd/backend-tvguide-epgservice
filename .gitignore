@@ -1,0 +1,25 @@
+# Build output
+build/
+cmake-build-*/
+out/
+data/
+
+# CMake / IDE
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+.cache/
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Dependencies fetched locally
+_deps/
+third_party/build/
+
+# Local EPG downloads (large, regenerable)
+*.xml
+!tests/data/*.xml
+*.xml.gz
+!tests/data/*.xml.gz
