@@ -1,5 +1,7 @@
 # tvguide
 
+[![tests](https://github.com/elodd/backend-tvguide-epgservice/actions/workflows/tests.yml/badge.svg)](https://github.com/elodd/backend-tvguide-epgservice/actions/workflows/tests.yml)
+
 A C++20 library and command-line tool that turn XMLTV electronic programme guides into printable HTML schedules.
 
 ## Features
