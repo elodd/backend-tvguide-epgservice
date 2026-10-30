@@ -4,6 +4,8 @@
 
 A C++20 library and command-line tool that turn XMLTV electronic programme guides into printable HTML schedules.
 
+> **Status: experimental.** tvguide is an experimental backend for my mobile app. Its API, output and command-line options may change without notice.
+
 ## Features
 
 - Parses XMLTV files into plain data types (`Channel`, `Programme`, `Guide`)

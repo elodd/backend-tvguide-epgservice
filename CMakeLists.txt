@@ -56,5 +56,7 @@ if(TVGUIDE_BUILD_TESTS)
   target_link_libraries(tests PRIVATE xmltv_fetch doctest::doctest trompeloeil::trompeloeil)
   target_compile_definitions(tests PRIVATE
     XMLTV_TEST_DATA_DIR="${CMAKE_CURRENT_SOURCE_DIR}/tests/data")
-  add_test(NAME xmltv COMMAND tests)
+  # One CTest entry per doctest TEST_CASE, so ctest -R / --rerun-failed work per case.
+  include(${doctest_SOURCE_DIR}/scripts/cmake/doctest.cmake)
+  doctest_discover_tests(tests TEST_PREFIX "xmltv.")
 endif()
